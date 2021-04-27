@@ -3,4 +3,7 @@ RSpec.describe "Es bisiesto" do
     it "Deberia devolver true si el año es 4" do
         expect(esBisiesto(4)).to eq true
     end
+    it "Deberia devolver false si el año es 5" do
+        expect(esBisiesto(5)).to eq false
+    end
 end
